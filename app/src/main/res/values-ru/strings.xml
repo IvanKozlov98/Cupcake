@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Пирожное</string>
+    <string name="order_cupcakes">Заказать Пирожные</string>
+    <string name="one_cupcake">Одно Пирожное</string>
+    <string name="six_cupcakes">Шесть Пирожных</string>
+    <string name="twelve_cupcakes">Двенадцать Пирожных</string>
+    <string name="choose_flavor">Выберите Вкус</string>
+    <string name="vanilla">Ваниль</string>
+    <string name="chocolate">Шоколад</string>
+    <string name="red_velvet">Красный Бархат</string>
+    <string name="salted_caramel">Соленая Карамель</string>
+    <string name="coffee">Кофе</string>
+    <string name="special_flavor">Особый Вкус</string>
+    <string name="cancel">Отмена</string>
+    <string name="next">Далее</string>
+    <string name="choose_pickup_date">Выберите дату доставки</string>
+    <string name="order_summary">Информация по заказу</string>
+    <string name="send">"Отправить заказ в другое приложение "</string>
+    <string name="quantity">Количество</string>
+    <string name="flavor">Вкус</string>
+    <string name="pickup_date">Дата доставки</string>
+    <string name="subtotal_price">Промежуточный итог %s</string>
+    <string name="total_price">Итог %s</string>
+    <string name="new_cupcake_order">Новый заказ на кексы</string>
+    <string name="order_details">Количество: %1$s \n Вкус: %2$s \nДата доставки: %3$s \n
+        Итог: %4$s \n\n Спасибо!</string>
+
+    <plurals name="cupcakes" tools:ignore="MissingQuantity">
+        <item quantity="one">%d пирожное</item>
+        <item quantity="other">%d пирожных</item>
+    </plurals>
+</resources>
